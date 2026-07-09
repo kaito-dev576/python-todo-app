@@ -1,5 +1,3 @@
-from task import Task
-
 class Task:
     def __init__(self,name,priority,deadline,done = False):
         self.name = name
